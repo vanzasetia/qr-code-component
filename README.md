@@ -19,8 +19,8 @@ After getting burned out, I wanted to do something simple, so I took on this cha
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-html-css-VgnhlI8uF](https://www.frontendmentor.io/solutions/qr-code-component-html-css-VgnhlI8uF)
+- Live Site URL: [https://vanzasetia.github.io/qr-code-component](https://vanzasetia.github.io/qr-code-component)
 
 ### Objective
 Users should be able to:
