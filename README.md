@@ -1,3 +1,8 @@
+<p align="left">
+  <a href="https://www.facebook.com/sharer?u=https%3A%2F%2Fgithub.com%2Fvanzasetia%2Fqr-code-component" target="_blank"><img src="https://img.shields.io/badge/Facebook-Share-51c101?style=for-the-badge&logo=facebook&logoColor=white" alt="Share to Facebook"></a>
+  <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fvanzasetia%2Fqr-code-component&text=I%27ve%20just%20found%20@vanzasetia%27s%20solution%20for%20the%20QR%20code%20component%20challenge%21&hashtags=FrontendMentor%2CCodeChallenge" target="_blank"><img src="https://img.shields.io/badge/Twitter-Share-51c101?style=for-the-badge&logo=twitter&logoColor=white" alt="Share to Facebook"></a>
+</p>
+
 # Frontend Mentor - QR code component solution
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
