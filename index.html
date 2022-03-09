@@ -6,12 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+    <title>Frontend Mentor | QR code component</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       rel="preconnect"
@@ -23,7 +18,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.min.css" />
-    <title>Frontend Mentor | QR code component</title>
+    <link rel="icon" href="/images/frontendmentor.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/favicons/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
     <main class="card">
@@ -65,5 +72,12 @@
         ></a
       >.
     </footer>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/service-worker.js");
+        });
+      }
+    </script>
   </body>
 </html>
