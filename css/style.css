@@ -81,48 +81,6 @@ footer {
 }
 
 /*------------------------------------*\
-  #OPEN-NEW-TAB-LINK
-\*------------------------------------*/
-.open-new-tab-link {
-  position: relative;
-}
-
-.open-new-tab-link__message {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  -webkit-clip-path: inset(50%);
-  clip-path: inset(50%);
-  border-radius: 2em;
-  background-color: var(--white);
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  text-align: center;
-  color: var(--dark-blue);
-}
-
-@media screen and (prefers-reduced-motion: no-preference) {
-  .open-new-tab-link__message {
-    transition: opacity 300ms ease-in-out;
-  }
-}
-
-.open-new-tab-link:hover .open-new-tab-link__message,
-.open-new-tab-link:active .open-new-tab-link__message,
-.open-new-tab-link:focus .open-new-tab-link__message {
-  display: block;
-  bottom: -1.5em;
-  left: 1em;
-  opacity: 1;
-  -webkit-clip-path: none;
-  clip-path: none;
-  width: 12em;
-  height: auto;
-}
-
-/*------------------------------------*\
   #CARD
 \*------------------------------------*/
 .card {
