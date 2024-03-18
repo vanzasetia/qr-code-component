@@ -1,34 +1,14 @@
-<p align="left">
-  <a href="https://www.facebook.com/sharer?u=https%3A%2F%2Fgithub.com%2Fvanzasetia%2Fqr-code-component" target="_blank"><img src="https://img.shields.io/badge/Facebook-Share-51c101?style=for-the-badge&logo=facebook&logoColor=white" alt="Share to Facebook"></a>
-  <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fvanzasetia%2Fqr-code-component&text=I%27ve%20just%20found%20@vanzasetia%27s%20solution%20for%20the%20QR%20code%20component%20challenge%21&hashtags=FrontendMentor%2CCodeChallenge" target="_blank"><img src="https://img.shields.io/badge/Twitter-Share-51c101?style=for-the-badge&logo=twitter&logoColor=white" alt="Share to Facebook"></a>
-</p>
-
-<p>
-  <a href="https://jigsaw.w3.org/css-validator/check/referer">
-    <img 
-      style="border:0;width:88px;height:31px"
-      src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-      alt="Valid CSS!" 
-    />
-  </a>
-</p>
-
 # Frontend Mentor - QR code component solution
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
 After getting burned out, I wanted to do something simple, so I took on this challenge. So, by completing this challenge at least I could get some motivation.
 
-## Table of contents
+## Disclaimer
 
-- [Overview](#overview)
-  - [Links](#links)
-  - [Objective](#objective)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+This project is solely for learning purposes. I take no any responsibility or liability for the accuracy, completeness, or usefulness of any information provided in this project. You should not use it as a reference for creating your project.
+
+I am currently no longer working on this project.
 
 ## Overview
 
@@ -38,6 +18,7 @@ After getting burned out, I wanted to do something simple, so I took on this cha
 - Live Site URL: [https://vanzasetia.github.io/qr-code-component](https://vanzasetia.github.io/qr-code-component)
 
 ### Objective
+
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
@@ -116,9 +97,9 @@ This approach might be slightly complex.
 ```
 
 *Now, what is going on?* Well, let me explain it.
-* Firstly, I add a visually hidden `h1` to give more structure and also clear that it is just an example or learning project. I could also think that this is just a chunk of the full website. So, the `h1` would exist somewhere else on the page.
-* Second, I make the QR code image the second thing that screen reader users are read because, as far as I'm aware, text content is the king of content, and it would make sense if those users first listened to the text content to understand what the QR code is about.
-* Lastly, I can simply use flexbox to change the appearance visually by using `flex-direction: column-reverse;`
+- Firstly, I add a visually hidden `h1` to give more structure and also clear that it is just an example or learning project. I could also think that this is just a chunk of the full website. So, the `h1` would exist somewhere else on the page.
+- Second, I make the QR code image the second thing that screen reader users are read because, as far as I'm aware, text content is the king of content, and it would make sense if those users first listened to the text content to understand what the QR code is about.
+- Lastly, I can simply use flexbox to change the appearance visually by using `flex-direction: column-reverse;`
 
 ##### Please, don't do this
 This is the last approach that I could think of.
@@ -135,7 +116,7 @@ This is the last approach that I could think of.
 </main>
 ```
 
-*Where is the image?* The image is on the CSS. 😁
+*Where is the image?* The image is on the CSS.
 
 Well, this is the worst thing that I could think of. So, instead of putting an actual `img` element, I use either **pseudo-element** or `background` properties.
 
@@ -162,13 +143,13 @@ It's also more or less the same as the above approach.
 </main>
 ```
 
-> P.S. I could make it even worse by adding `aria-hidden="true"` to the image. That way, I make sure that not even a single screen reader would find out the image. 😂
+I could make it even worse by adding `aria-hidden="true"` to the image. That way, I make sure that not even a single screen reader would find out the image.
 
 ### Useful resources
+
 - [A Modern CSS Reset by Piccalilli](https://piccalil.li/blog/a-modern-css-reset/) - I usually use [Normalize](https://necolas.github.io/normalize.css/) which might be overkill for modern browsers since they are much likely to have fewer CSS browser compatibility issues.
 - [The New CSS Reset | the-new-css-reset](https://elad2412.github.io/the-new-css-reset/) - This one is even newer and smaller which is great for modern browsers. I don't use it in this project, but it's a choice that exists.
 
-## Author
+## License
 
-- Frontend Mentor - [@vanzasetia](https://www.frontendmentor.io/profile/vanzasetia)
-- Twitter - [@vanzasetia](https://www.twitter.com/vanzasetia)
+[The Unlicense](./UNLICENSE)
